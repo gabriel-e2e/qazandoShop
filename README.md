@@ -17,8 +17,8 @@ Este repositório contém um projeto de automação de testes desenvolvido com C
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/gabriel-e2e/qazandoShop
+   cd qazandoShop
    ```
 
 2. **Instale as dependências:**
@@ -35,17 +35,6 @@ Este repositório contém um projeto de automação de testes desenvolvido com C
    npx cypress run
    ```
 
-## 📁 Estrutura do Projeto
-
-- `cypress/e2e/`: Contém os arquivos de teste para o cadastro e login de usuário.
-  - `cadastroeLogin.cy.js`: Arquivo de teste que abrange os cenários de cadastro e login de usuário.
-- `cypress/fixtures/`: Armazena os dados de teste.
-  - `example.json`: Arquivo JSON usado para fornecer dados de teste.
-- `cypress/support/`: Arquivos de suporte para os testes, como comandos customizados.
-  - `commands.js`: Arquivo para definir comandos personalizados do Cypress.
-  - `e2e.js`: Arquivo de configuração adicional para o suporte dos testes.
-- `cypress.config.js`: Arquivo de configuração do Cypress.
-- `package.json`: Arquivo que contém as dependências e scripts do projeto.
 
 ## 🧪 Cenários de Teste
 
